@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+
+
+
+
+
+<!--    &lt;!&ndash;默认指定使用哪个数据源&ndash;&gt;-->
+<!--    <environments default="development">-->
+<!--        &lt;!&ndash;    环境的名字  &ndash;&gt;-->
+<!--        <environment id="development">-->
+<!--            &lt;!&ndash;指使用JDBC的方式管理事务&ndash;&gt;-->
+<!--            <transactionManager type="JDBC"></transactionManager>-->
+<!--            &lt;!&ndash;表示使用连接池&ndash;&gt;-->
+<!--            <dataSource type="POOLED">-->
+<!--                &lt;!&ndash; 四大连接参数 &ndash;&gt;-->
+<!--                <property name="driver" value="com.mysql.jdbc.Driver"/>-->
+<!--                <property name="url" value="jdbc:mysql://localhost:3306/ssmbuild"/>-->
+<!--                <property name="username" value="root"/>-->
+<!--                <property name="password" value="root"/>-->
+<!--            </dataSource>-->
+<!--            &lt;!&ndash;            <dataSource type="POOLED">&ndash;&gt;-->
+<!--            &lt;!&ndash;                &lt;!&ndash; 四大连接参数 &ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;                <property name="driver" value="${jdbc.drive}"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;                <property name="url" value="${jdbc.url}"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;                <property name="username" value="${jdbc.username}"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;                <property name="password" value="${jdbc.password}"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </dataSource>&ndash;&gt;-->
+<!--        </environment>-->
+<!--    </environments>-->
+
+
+
+
+
+
+
+
+    <!-- 这里写配置内容 -->
+    <mappers>
+        <mapper resource="bookmapper.xml"></mapper>
+    </mappers>
+</configuration>
